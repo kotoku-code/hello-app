@@ -7,6 +7,7 @@ ruby '2.6.5'
 gem 'rails', '~> 5.2.4', '>= 5.2.4.3'
 # Use sqlite3 as the database for Active Record
 # gem 'sqlite3'
+gem 'pg'
 gem 'devise'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
@@ -64,5 +65,5 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 group :production do
-gem 'pg', '1.1.4'
+
 end
